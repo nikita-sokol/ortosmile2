@@ -194,6 +194,25 @@ $(document).ready(function () {
 
     });
 
+    // patients-block
+    $('.btn-new-patients').on('click', function (e) {
+      e.preventDefault();
+
+      var  $this = $(this),
+           wrap = $this.closest(".patients-block"),
+           text = wrap.find(".patients-block-text"),
+           duration = 300;
+
+      if ($this.hasClass('active')) {
+          $this.removeClass('active');
+          text.slideUp(duration);
+      } else {
+          $this.addClass('active')
+          text.slideDown(duration);
+      }
+
+    });
+        
 });
 
 

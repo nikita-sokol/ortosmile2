@@ -2642,3 +2642,477 @@ header {
 .outer-braces-table > tbody .outer-tbody-second-tr td {
   border-top: 0px solid #000;
 }
+/*------------------ new-patients ------------------*/
+.new-patients {
+  padding: 45px 0 80px;
+  background: #fff;
+}
+.new-patients-title {
+  font-weight: bold;
+  margin-bottom: 55px;
+}
+.new-patients-title h2 {
+  color: #009999;
+}
+a.btn-new-patients {
+  position: relative;
+  color: #009999;
+  font-size: 24px;
+  margin-left: 32px;
+  margin-bottom: 35px;
+}
+a.btn-new-patients span {
+  border-bottom: 1px dotted #099b9b;
+}
+.btn-new-patients:hover {
+  color: #009999;
+}
+.btn-new-patients::before {
+  position: absolute;
+  background: url(../img/patients-arrow.svg) 0 0 no-repeat;
+  background-size: cover;
+  left: -29px;
+  top: 12px;
+  content: "";
+  width: 16px;
+  height: 10px;
+}
+.patients-block .active {
+  color: #425058;
+}
+.patients-block .active:hover {
+  color: #425058;
+}
+.patients-block .active::before {
+  position: absolute;
+  background: url(../img/patients-arrow-h.svg) 0 0 no-repeat;
+  background-size: cover;
+  left: -29px;
+  top: 12px;
+  content: "";
+  width: 16px;
+  height: 10px;
+}
+.patients-block-text {
+  margin-bottom: 35px;
+  display: none;
+}
+.patients-block-text h5 {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.patients-block-text h5:nth-of-type(2) {
+  margin-bottom: 50px;
+}
+.patients-end {
+  margin-top: 25px;
+  text-align: right;
+}
+/*------------------ oral-hygiene ------------------*/
+.oral-hygiene {
+  padding: 45px 0;
+  background: #fff;
+}
+.oral-hygiene h2 {
+  color: #009999;
+  font-weight: bold;
+  margin-bottom: 45px;
+}
+.oral-hygiene p {
+  font-size: 24px;
+}
+.oral-hygiene p + p {
+  margin-top: 30px;
+}
+/*------------------ hygiene-list ------------------*/
+.hygiene-list {
+  padding: 62px 0 77px;
+  background: #dcecec;
+}
+.hygiene-list-block h3 {
+  margin-bottom: 25px;
+  color: #009999;
+  font-weight: bold;
+  text-align: center;
+}
+.hygiene-list-block ul {
+  margin-top: 30px;
+}
+.hygiene-list-block ul li {
+  position: relative;
+  padding-left: 33px;
+}
+.hygiene-list-block ul li::before {
+  content: "—";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 1em;
+  width: 1em;
+}
+/*------------------ kinds-hygiene ------------------*/
+.kinds-hygiene {
+  padding-top: 60px;
+}
+.kinds-hygiene h3 {
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.kinds-hygiene-o,
+.kinds-hygiene-e {
+  background: #f0f0f0;
+  padding: 50px 0;
+}
+.kinds-hygiene-o span,
+.kinds-hygiene-e span {
+  font-size: 24px;
+  font-weight: bold;
+  color: #009999;
+}
+.kinds-hygiene-o ul,
+.kinds-hygiene-e ul {
+  margin-top: 30px;
+}
+.kinds-hygiene-o ul,
+.kinds-hygiene-e ul {
+  color: #009999;
+}
+.kinds-hygiene-o ul li,
+.kinds-hygiene-e ul li {
+  position: relative;
+  padding-left: 33px;
+}
+.kinds-hygiene-o ul li::before,
+.kinds-hygiene-e ul li::before {
+  content: "—";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 1em;
+  width: 1em;
+}
+.kinds-hygiene-o {
+  background: #fff;
+}
+/*------------------ .kinds-hygiene-prices ------------------*/
+.kinds-hygiene-prices {
+  padding: 60px 0 77px;
+  background: #009999 url(../img/bg-l-prices.jpg) center no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+.kinds-bleaching-table {
+  width: 100%;
+  color: #fff;
+}
+.kinds-bleaching-table > tbody > tr > td {
+  vertical-align: middle;
+  font-weight: bold;
+  font-size: 22px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 1px solid #2eeeee;
+  text-align: center;
+}
+.kinds-bleaching-table > tbody > tr > td:first-child {
+  font-size: 18px;
+  text-align: left;
+  padding-left: 20px;
+}
+.kinds-bleaching-table > tbody > tr > td:last-child {
+  width: 200px;
+}
+.kinds-bleaching-table > tbody .outer-tbody-first-tr th {
+  border-top: 0px solid #000;
+}
+.kinds-bleaching-table > tbody .outer-tbody-second-tr td {
+  border-top: 0px solid #000;
+}
+/*------------------ machines-children ------------------*/
+.machines-children {
+  padding: 50px 0 75px;
+}
+.m-children-title {
+  margin-bottom: 50px;
+}
+.m-children-title h2 {
+  font-weight: bold;
+  color: #009999;
+}
+.m-children-block h4 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.m-children-block p {
+  font-size: 24px;
+}
+.m-children-block p + p {
+  margin-top: 30px;
+}
+.m-children img {
+  width: 100%;
+}
+/*------------------ devices-situation ------------------*/
+.devices-situation {
+  background: #f0f0f0;
+  padding: 70px 0 90px;
+}
+.devices-situation h4 {
+  margin-bottom: 30px;
+  font-size: 24px;
+}
+.situation-block {
+  background: #fff;
+  margin-top: 20px;
+  display: inline-block;
+  width: 100%;
+}
+.situation-block p + p {
+  margin-top: 20px;
+}
+.situation-img-1,
+.situation-img-2 {
+  font-size: 0;
+  line-height: 0;
+  letter-spacing: -1px;
+  width: 560px;
+}
+.situation-img-1 img,
+.situation-img-2 img {
+  width: 100%;
+}
+.situation-text-1,
+.situation-text-2 {
+  width: 560px;
+}
+.situation-text-2 {
+  padding: 35px 60px 0 60px;
+  float: left;
+}
+.situation-img-2 {
+  float: right;
+}
+.situation-text-1 {
+  padding: 35px 60px 0 30px;
+  float: right;
+}
+.situation-img-1 {
+  float: left;
+}
+/*------------------ teeth-whitening ------------------*/
+.teeth-whitening {
+  padding: 45px 0;
+  background: #fff;
+}
+.teeth-whitening h2 {
+  color: #009999;
+  font-weight: bold;
+  margin-bottom: 45px;
+}
+.teeth-whitening p {
+  font-size: 24px;
+}
+.teeth-whitening p + p {
+  margin-top: 30px;
+}
+/*------------------ .about-bleaching ------------------*/
+.about-bleaching {
+  padding: 62px 0 77px;
+  background: #dcecec;
+}
+.about-bleaching-block h4 {
+  font-size: 24px;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+.about-bleaching-block h6 {
+  font-weight: bold;
+  color: #009999;
+  margin-bottom: 20px;
+}
+.about-bleaching-block ol {
+  counter-reset: num;
+}
+.about-bleaching-block ol li {
+  position: relative;
+  padding-left: 33px;
+}
+.about-bleaching-block ol li::before {
+  content: counter(num) ".";
+  counter-increment: num;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 1em;
+  width: 1em;
+}
+.about-bleaching-block + .about-bleaching-block {
+  margin-top: 50px;
+}
+/*------------------ kinds-bleaching ------------------*/
+.kinds-bleaching {
+  padding-top: 60px;
+}
+.kinds-bleaching h3 {
+  color: #009999;
+  font-weight: bold;
+  margin-bottom: 55px;
+  text-align: center;
+}
+.kinds-bleach-o,
+.kinds-bleach-e {
+  background: #f0f0f0;
+  padding: 50px 0;
+}
+.kinds-bleach-o span,
+.kinds-bleach-e span {
+  font-size: 24px;
+  font-weight: bold;
+  color: #009999;
+}
+.kinds-bleach-o p,
+.kinds-bleach-e p,
+.kinds-bleach-o ul,
+.kinds-bleach-e ul {
+  margin-top: 30px;
+}
+.kinds-bleach-o p:first-of-type,
+.kinds-bleach-e p:first-of-type {
+  margin-top: 0;
+}
+.kinds-bleach-o ul,
+.kinds-bleach-e ul {
+  color: #009999;
+}
+.kinds-bleach-o ul li,
+.kinds-bleach-e ul li {
+  position: relative;
+  padding-left: 33px;
+}
+.kinds-bleach-o ul li::before,
+.kinds-bleach-e ul li::before {
+  content: "—";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 1em;
+  width: 1em;
+}
+.kinds-bleach-o .span-cyan,
+.kinds-bleach-e .span-cyan {
+  color: #009999;
+}
+.kinds-bleach-e {
+  background: #fff;
+}
+/*------------------ .kinds-bleaching-prices ------------------*/
+.kinds-bleaching-prices {
+  padding: 60px 0 77px;
+  background: #009999 url(../img/bg-l-prices.jpg) center no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+.kinds-hygiene-table {
+  width: 100%;
+  color: #fff;
+}
+.kinds-hygiene-table > tbody > tr > td {
+  vertical-align: middle;
+  font-weight: bold;
+  font-size: 22px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 1px solid #2eeeee;
+  text-align: center;
+}
+.kinds-hygiene-table > tbody > tr > td:first-child {
+  font-size: 18px;
+  width: 50%;
+}
+.kinds-hygiene-table > tbody > tr > td:last-child {
+  width: 50%;
+}
+.kinds-hygiene-table > tbody .outer-tbody-first-tr td {
+  border-top: 0px solid #000;
+}
+/*------------------ slider-results ------------------*/
+.results {
+  padding: 50px 0 70px;
+  background: #fff;
+}
+.results h2 {
+  font-weight: bold;
+  margin-bottom: 55px;
+  text-align: left;
+  color: #009999;
+}
+.result-slider {
+  margin: 30px 0;
+}
+.result-slider img {
+  width: 100%;
+  margin: 0 auto;
+}
+.result-slider .carousel-control.left {
+  background-image: none;
+}
+.result-slider .carousel-control.right {
+  background-image: none;
+}
+.result-slider .glyphicon-chevron-left::before {
+  position: absolute;
+  content: "";
+  background: url(../img/slider-arrow-l.svg) 0 0 no-repeat;
+  background-size: cover;
+  left: 0px;
+  top: 0px;
+  width: 33px;
+  height: 65px;
+}
+.result-slider .glyphicon-chevron-right::before {
+  position: absolute;
+  content: "";
+  background: url(../img/slider-arrow-r.svg) 0 0 no-repeat;
+  background-size: cover;
+  left: 0px;
+  top: 0px;
+  width: 33px;
+  height: 65px;
+}
+.result-slider .carousel-indicators .active {
+  width: 12px;
+  height: 12px;
+  margin: 0;
+  background-color: #009999;
+}
+.result-slider .carousel-indicators li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 1px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #000\9;
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px solid #009999;
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
+}
+.result-slider .carousel-indicators {
+  bottom: -40px;
+}
+.side-results-info {
+  background: #fff;
+  padding-top: 26px;
+  padding-bottom: 26px;
+}
+.side-results-diagnosis strong {
+  font-weight: bold;
+}
+.bg-gallery {
+  background: #f0f0f0;
+  padding-top: 60px;
+}

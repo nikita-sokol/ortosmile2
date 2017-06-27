@@ -183,12 +183,35 @@
   .t-namber-1 {
     background: #fff url(../img/t-1.png) left 320px bottom 0 no-repeat;
   }
-  .treatment-text-1 {
+  .situation-img-1 {
+    float: left;
+    width: 460px;
+  }
+  .situation-img-2 {
+    float: right;
+    width: 460px;
+  }
+  .situation-text-1 {
+    padding: 25px 40px 0 40px;
+    float: right;
+    width: 480px;
+  }
+  .situation-text-2 {
     padding: 25px 40px 0 40px;
     float: left;
     width: 480px;
   }
-  .treatment-img-1 {
+  .treatment-img-2 {
+    float: left;
+    width: 460px;
+  }
+  .treatment-text-1,
+  .treatment-text-2 {
+    padding: 25px 40px 0 40px;
+    float: left;
+    width: 480px;
+  }
+  .treatment-img-2 {
     float: right;
     width: 460px;
   }
@@ -199,10 +222,6 @@
     padding: 25px 40px 0 40px;
     float: right;
     width: 480px;
-  }
-  .treatment-img-2 {
-    float: left;
-    width: 460px;
   }
   .t-namber-3 {
     background: #fff url(../img/t-3.png) left 285px bottom 0 no-repeat;
@@ -464,6 +483,9 @@
   .results-info {
     margin-top: 10px;
   }
+  .side-results-info {
+    margin-top: 10px;
+  }
   .gallery-clinic-link {
     height: 345px;
   }
@@ -504,7 +526,13 @@
   .l-braces-title {
     margin-bottom: 40px;
   }
+  .m-children-title {
+    margin-bottom: 40px;
+  }
   .l-braces-img {
+    margin-top: 15px;
+  }
+  .m-children {
     margin-top: 15px;
   }
   .incognito-text-1 {
@@ -534,6 +562,9 @@
     float: left;
   }
   .l-treatment h3 {
+    margin-bottom: 20px;
+  }
+  .devices-situation h3 {
     margin-bottom: 20px;
   }
   .treatment-text-1,
@@ -682,6 +713,31 @@
   }
   .outer-braces-table > tbody tr td {
     font-size: 16px;
+  }
+  .m-children-img {
+    margin-top: 25px;
+  }
+  .m-children-img img {
+    display: block;
+    margin: 0 auto;
+  }
+  .situation-img-1 {
+    float: left;
+    width: 350px;
+  }
+  .situation-img-2 {
+    float: right;
+    width: 350px;
+  }
+  .situation-text-1 {
+    padding: 20px 20px 0 20px;
+    float: right;
+    width: 370px;
+  }
+  .situation-text-2 {
+    padding: 20px 20px 0 20px;
+    float: left;
+    width: 370px;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -897,6 +953,9 @@
     font-size: 22px;
     font-weight: bold;
   }
+  .m-children-title h2 {
+    font-size: 40px;
+  }
   .treatment-block {
     background: #fff;
   }
@@ -1004,6 +1063,34 @@
   .outer-braces-table > tbody tr td {
     font-size: 18px;
   }
+  .patients-block-text h5 {
+    text-align: left;
+  }
+  .oral-hygiene h2 {
+    margin-bottom: 35px;
+  }
+  .teeth-whitening h2 {
+    margin-bottom: 35px;
+  }
+  .situation-text-1,
+  .situation-text-2 {
+    padding: 20px;
+    float: left;
+    width: 100%;
+  }
+  .situation-img-1,
+  .situation-img-2 {
+    float: left;
+    width: 100%;
+  }
+  .result-slider .glyphicon-chevron-left {
+    left: 30%;
+    margin-left: -10px;
+  }
+  .result-slider .glyphicon-chevron-right {
+    right: 60%;
+    margin-right: -10px;
+  }
 }
 @media only screen and (max-width: 650px) {
   .h-body h1 {
@@ -1021,6 +1108,13 @@
   .l-treatment h3 {
     margin-bottom: 20px;
     font-size: 30px;
+  }
+  .devices-situation {
+    background: #dcecec;
+    padding: 50px 0 75px;
+  }
+  .devices-situation h3 {
+    margin-bottom: 20px;
   }
   .consultation {
     padding: 30px 0 75px;
@@ -1042,6 +1136,15 @@
   }
   .br-types-block-c h6 {
     font-size: 15px;
+  }
+  .hygiene-list-block h3 {
+    text-align: left;
+    font-size: 30px;
+  }
+  .kinds-hygiene h3 {
+    font-weight: bold;
+    text-align: left;
+    font-size: 30px;
   }
 }
 @media only screen and (max-width: 639px) {
@@ -1249,6 +1352,10 @@
   .about-doctor-post {
     font-size: 18px;
   }
+  .result-slider .glyphicon-chevron-right {
+    right: 70%;
+    margin-right: -10px;
+  }
 }
 @media only screen and (max-width: 580px) {
   .results-img {
@@ -1296,6 +1403,9 @@
   .l-braces-title h2 {
     font-size: 36px;
   }
+  .m-children-title {
+    font-size: 36px;
+  }
   .prices-treatment {
     padding: 30px 0 50px;
   }
@@ -1326,6 +1436,12 @@
   .outer-braces-fact {
     margin-top: 30px;
     font-size: 18px;
+  }
+  .kinds-hygiene-table > tbody > tr > td:last-child {
+    width: 50%;
+  }
+  .kinds-bleaching-table > tbody > tr > td:last-child {
+    width: 160px;
   }
 }
 @media only screen and (max-width: 500px) {
@@ -1379,6 +1495,12 @@
   .l-braces-title p {
     font-size: 20px;
     font-weight: bold;
+  }
+  .m-children-title {
+    margin-bottom: 30px;
+  }
+  .m-children-title h2 {
+    font-size: 30px;
   }
   .l-braces-title {
     margin-bottom: 30px;
@@ -1458,6 +1580,14 @@
   .braces-types h3 {
     font-size: 30px;
   }
+  .oral-hygiene h2 {
+    margin-bottom: 35px;
+    font-size: 40px;
+  }
+  .result-slider .glyphicon-chevron-right {
+    right: 75%;
+    margin-right: -10px;
+  }
 }
 @media only screen and (max-width: 480px) {
   .h-form p {
@@ -1526,6 +1656,13 @@
     background-color: #009999;
     padding-top: 50px;
     padding-bottom: 450px;
+  }
+  .m-children-img img {
+    width: 100%;
+  }
+  .result-slider .glyphicon-chevron-right {
+    right: 85%;
+    margin-right: -10px;
   }
 }
 @media only screen and (max-width: 400px) {
@@ -1618,9 +1755,26 @@
   .prices-treatment-table .table > tbody > tr > td {
     font-size: 16px;
   }
+  .oral-hygiene h2 {
+    font-size: 40px;
+  }
+  .teeth-whitening h2 {
+    font-size: 40px;
+  }
+  .kinds-hygiene-table > tbody > tr > td:last-child {
+    font-size: 20px;
+  }
+  .kinds-bleaching-table > tbody > tr > td:last-child {
+    width: 130px;
+    font-size: 20px;
+  }
 }
 @media only screen and (max-width: 360px) {
   #h-form-top input[type="submit"] {
     font-size: 16px;
+  }
+  .result-slider .glyphicon-chevron-right {
+    right: 100%;
+    margin-right: -10px;
   }
 }
